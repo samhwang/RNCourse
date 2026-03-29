@@ -13,15 +13,17 @@
     "ci": "biome ci ."
   },
   "dependencies": {
-    "expo": "~55.0.8",
-    "expo-status-bar": "~55.0.4",
+    "expo": "^55.0.9",
+    "expo-status-bar": "^55.0.4",
     "react": "19.2.0",
-    "react-native": "0.83.2"
+    "react-dom": "19.2.0",
+    "react-native": "0.83.4",
+    "react-native-web": "^0.21.2"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.9",
-    "@types/react": "~19.2.2",
-    "typescript": "~5.9.2"
+    "@types/react": "^19.2.14",
+    "typescript": "^6.0.2"
   },
   "private": true
 }
